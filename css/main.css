@@ -1,330 +1,419 @@
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video,hr {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 body {
-    font-family: sans-serif;
-    background-color: white;
-    color: black;
-    font-size: 0.9rem;
-    
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 0.9rem;
 }
-#invoice{
-    
-    width: 49rem;
-    height: 68rem;
-    padding: 0;
-    margin: 0;
-    background-color: white;
-    padding-top: 2rem;
-    
-    
-
-}
-.main-index{
-    width: 50rem;
-    height: 69rem; 
-    padding: 0;
-  /*  margin: 0;*/
-    border: 1px solid rgba(12, 12, 12, 0.192);
-    -webkit-box-shadow: 11px 9px 11px -1px rgba(171,171,171,1);
-    -moz-box-shadow: 11px 9px 11px -1px rgba(171,171,171,1);
-    box-shadow: 11px 9px 11px -1px rgba(171,171,171,1);
+#invoice {
+  width: 21.6cm;
+  height: 27.9cm;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  padding-top: 2.5cm;
+  padding-bottom: 3cm;
+  background-color: white;
+  margin-right: 7cm;
+  margin: 0;
+  position: sticky;
+  
 }
 
-#detail{
-    visibility: hidden;
+.firstinfo {
+  margin: 0;
+  padding: 0;
+  width: 19cm;
+}
+.main-index {
+  width: 21.6cm;
+  height: 27.9cm;
+  margin-top: 2rem;
+  margin-left: 7cm;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: white;
+  border: 1px solid rgba(12, 12, 12, 0.192);
+  -webkit-box-shadow: 11px 9px 11px -1px rgba(171, 171, 171, 1);
+  -moz-box-shadow: 11px 9px 11px -1px rgba(171, 171, 171, 1);
+  box-shadow: 11px 9px 11px -1px rgba(171, 171, 171, 1);
+}
+.detailInfo {
+  width: 19cm;
 }
 
-.menu-header{
-    background-color: white;
-    height: 15rem;
-    text-align: center;
+.detailInfodiv {
+  width: 19cm;
+  justify-content: space-between;
 }
-.menu-header-div{
-    background-color: white;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-
+.text-body1,
+.table1 {
+  width: 8cm;
+  font-size: 0.9rem;
+}
+.nota1 {
+  width: 6.5cm;
+  margin: 0;
+  color: black;
+  margin-left: 1cm;
+}
+#detail {
+  visibility: hidden;
 }
 
-.selectdiv{
-     margin-top: 5rem;
-     margin-bottom: 5rem;
- }
- 
+.menu-header {
+  background-color: white;
+  height: 20rem;
+  text-align: center;
+}
+.menu-header-div {
+  background-color: white;
+  padding-top: 2cm;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 
- .Questions{
-    font-weight: bold;   
-    font-size: 0.9rem;
-    color: black;
+.selectdiv {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.Questions {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: black;
 }
 
 .pInvoicen {
-    font-weight: bold;   
-    font-size: 0.9rem;
-    color: black;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: black;
 }
 
-.InvoiceN{
-    font-weight: bold;   
-    font-size: 0.9rem;
-    color: black;
+.InvoiceN {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: black;
 }
 
-.InvoiceN1{
-    font-size: 0.8rem;
-    color: black;
+.InvoiceN1 {
+  font-size: 0.8rem;
+  color: black;
 }
 
-h1{
-    font-size: 1.2rem;
-   
-    font-weight: bold;
-    color: black;
-    letter-spacing: 0.01rem;
+h1 {
+  font-size: 1.2rem;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 0.01rem;
 }
-h1 i{
-    color: red;
-    font-weight: bold;
-}
-
-
-h2{
-    font-weight: bold;
-    font-size: 0.9rem;
-    text-decoration: underline;
-    width: 19rem;
-    font-family: sans-serif;
+h1 i {
+  color: red;
+  font-weight: bold;
 }
 
-.h3{
-    font-size: 0.8rem;
-    font-family: sans-serif;
+h2 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  width: 19rem;
+  font-family: sans-serif;
 }
 
+.h3 {
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  width: 9cm;
+}
 
-
-h4{
-    font-size: 0.7rem;
-    font-weight: bold;
-    font-family: sans-serif;
-    margin-bottom: -3rem;
-    margin-top: 3rem;
+h4 {
+  font-size: 0.7rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: -3rem;
+  margin-top: 3rem;
 }
 .divh4 {
-    margin-top: 3rem;
-    text-align: center;
+  margin-top: 8rem;
+  text-align: center;
 }
-.img{
-    height: 3rem;
-    width: 7.5rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-}
-
-.inforem1{
-    font-size: 0.8rem;
-    width: 20rem;
-    margin-bottom: 0.2rem;
-}
-.inforem{
-    font-size: 1rem;
-    font-weight: bold;
+.img {
+  height: 3rem;
+  width: 7.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
-.inforem2{
-    font-size: 0.9rem;
-    font-weight: bold;
-    text-decoration:underline ;
-    margin-bottom: 5rem;
+.inforem1 {
+  font-size: 0.8rem;
+  width: 20rem;
+  margin-bottom: 0.2rem;
+}
+.inforem {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-.Questions{
-    font-size: 0.9rem;
-}
-.firstdatadiv, .fourthdatadiv{
-    width: 15rem;
-    font-size: 0.9rem;
-}
-
-.seconddata{
-    width: 12rem;
-    font-size: 0.8rem;
+.inforem2 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 5rem;
 }
 
-.seconddatadiv{
-    margin-left: 2rem;
+.Questions {
+  font-size: 0.9rem;
+}
+.firstdatadiv,
+.fourthdatadiv {
+  width: 15rem;
+  font-size: 0.9rem;
 }
 
-
-.firstdata{ 
-    text-align:left;
-}
-.thirddatadiv{
-    margin-bottom: -2rem;
+.seconddata {
+  width: 12rem;
+  font-size: 0.8rem;
 }
 
-.thirddata{
-    vertical-align: text-bottom;
-    margin-top: 0.9rem;
+.seconddatadiv {
+  margin-left: 2rem;
 }
 
-.text-body1, .table1{
-    width: 20rem;
-    font-size: 0.9rem;
+.firstdata {
+  text-align: left;
+}
+.thirddatadiv {
+  margin-bottom: -2rem;
 }
 
-.ChAmount, .TotalNet {
-    text-align: end;
+.thirddata {
+  vertical-align: text-bottom;
+  margin-top: 0.9rem;
+}
+
+.ChAmount,
+.TotalNet {
+  text-align: end;
 }
 
 .TotalNet {
-    text-align: end;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    border-top: 0.1rem solid;
+  text-align: end;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-top: 0.1rem solid;
 }
 
 .SubtotalN {
-    text-align: end;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    border-top: 0.1rem solid;
+  text-align: end;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-top: 0.1rem solid;
 }
 
-.nota{
-    font-size: 0.7rem;
-    width: 23rem;
-    height: auto;
+.nota {
+  font-size: 0.7rem;
+  width: 23rem;
+  height: auto;
 }
 
-.nota1{
-    width: 30rem;
+.table2,
+.table2 thead,
+.table2 thead tr,
+.table2 thead tr th {
+  border: 0.1rem solid;
+}
+.table {
+  width: 10cm;
+  /* margin-left: 0.8cm;*/
 }
 
-.table2,.table2 thead, .table2 thead tr, .table2 thead tr th {
-    border: 0.1rem solid;
+.text {
+  width: 10cm;
+  margin-top: -1rem;
 }
-
+.infobotton {
+  width: 7cm;
+  margin: 0;
+  padding: 0;
+}
+.footerInfo {
+  width: 19cm;
+  margin: 0;
+}
+.thtext {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  width: 2.5cm;
+}
 .tdpay {
-    padding: 0;
-    border: 0.1rem solid;
-    margin: 0;
+  height: 2.4rem;
+  text-align: justify;
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 0;
+  border: 0.1rem solid;
 }
-
-.text{
-    width: 25rem;
-    margin-top: -1rem;
-    
-}
-.thtext{
-    font-size: 0.8rem;
-    font-weight: bold;
-    text-align: center;
-}
-.tdpay{
-    height: 2.4rem;
-    text-align: justify;
-    font-size: 0.8rem;
-}
-.pdatepay{
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+.pdatepay {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 .trinfopay {
-    border: 0.1rem solid;
+  border: 0.1rem solid;
+  margin: 0;
+  padding: 0;
 }
 
-.thtext1{
-    font-weight: bold;
-    text-align: center;
-    width: 8rem;
+.thtext1 {
+  font-weight: bold;
+  text-align: center;
+  width: 3cm;
 }
 
 .tbody2 {
-     font-size: 0.9rem;
-     text-align:justify;
+  font-size: 0.9rem;
+  text-align: justify;
 }
 
 .tbody1 {
-    font-size: 0.8rem;
-    text-align:justify;
+  font-size: 0.8rem;
+  text-align: justify;
 }
 
-
-
-.divtOTAL{
-    font-size: 0.8rem;
-    align-items:center;
-    font-family: sans-serif;
-    margin-bottom: 1rem;    
-   
-    padding: 0;
-
+.divtOTAL {
+  font-size: 0.8rem;
+  align-items: center;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  padding: 0;
 }
 
-.divtotal1{
-    width: 20rem;
-    text-align: end;
-    margin-top: 1rem;   
-    font-size: 0.8rem;
+.divtotal1 {
+  width: 8cm;
+  text-align: end;
+  margin-top: 1rem;
+  font-size: 0.8rem;
 }
 
-
-.h3t { 
-    font-size: 0.8rem;
-    border-top: 0.1rem solid;
+.h3t {
+  font-size: 0.8rem;
+  border-top: 0.1rem solid;
 }
 
-
-.divimg2{
-    margin-top: -4rem;
-    text-align: right;
-    justify-items: end;
-/*    display: inline-block;*/
+.divimg2 {
+  margin-top: -1.8cm;
+  width: 19cm;
+  text-align: right;
+  justify-items: end;
+  /*    display: inline-block;*/
 }
 
-.img2{
-    width: 20.5rem;
-    margin-right: 2.5rem;
+.img2 {
+  width: 9cm;
+  margin-right: 2.5rem;
 }
 
 .lastinf {
-    width: 17rem;
-    margin-left: 4rem;
-    font-size: 0.9rem;
-    margin-bottom: 5rem;
+  width: 17rem;
+  margin-left: 4rem;
+  font-size: 0.9rem;
+  /*margin-bottom: 5rem;*/
 }
 
 .lastinfFedex {
-    width: 17rem;
-    font-size: 0.9rem;
-    margin-right: 1rem;
+  width: 17rem;
+  font-size: 0.9rem;
+  margin-right: 1rem;
 }
-
-
-/*.firstinfo{
-    margin-top: 1rem;
-}*/

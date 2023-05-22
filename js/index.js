@@ -29,8 +29,8 @@ const contentinvoice = `
 <br>
 
 <h2>Transportation Charges</h2>
-<div>
-<div class="d-flex justify-content-between">
+<div class= "detailInfo">
+<div class="d-flex justify-content-between detailInfoDiv">
 
 <div class="text-body1">
     <table class="table1 ">
@@ -47,7 +47,7 @@ const contentinvoice = `
 </div>
 
 <div class="col offset-md-1 nota1">
-    <table class="table md-3">
+    <table class="table">
         <thead class="">
             <tr class="thead-dark">
                 <th>
@@ -89,7 +89,7 @@ const contentinvoice = `
 <br><br><br>
 <img src="./img/logo.png" alt="" class="img">
 
-<div class="d-flex justify-content-between">
+<div class="d-flex justify-content-between footerInf">
 <div class="infobotton">
 <p class="inforem1">To ensure proper credit, please return
     this portion with
@@ -100,7 +100,7 @@ const contentinvoice = `
 <p class="inforem2">Transportation Charges</p>
 
 </div>
-<div class="text">
+<div class="container text">
 <p class="pdatepay"></p>
 <table class="table table-bordered table2">
     <thead class=" ">
@@ -122,6 +122,7 @@ const contentinvoice = `
 <div class="divimg2">
 <img src="./img/Screenshot_2.png" alt="" class="img2">
 </div>
+
 
 <div class="d-flex justify-content-between">
 <p class="lastinf">
